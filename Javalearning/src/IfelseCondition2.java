@@ -5,18 +5,14 @@ public class IfelseCondition1 {
             Scanner in =new Scanner(System.in);
         int a =in.nextInt();
         int b =in.nextInt();
-        int c =in.nextInt();
 
-            int  max=a;
-            if (max<=b){
+
+            int  min=a;
+            if (min<=b){
                 System.out.println("he get pass marks");
-            } else if (max>=c) {
+            } else   {
                 System.out.println("he get fail marks");
             }
-            else {
-                System.out.println("invalid marks");
-            }
-
 
     }
 }
