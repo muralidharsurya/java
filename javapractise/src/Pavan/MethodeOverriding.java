@@ -1,4 +1,5 @@
 package Pavan;
+
 class Bank{
     double rateofInterest(){
         return 0;
@@ -24,10 +25,12 @@ class AXIS extends Bank{
 
 
 
-public class MethodeOverLoading {
+public class MethodeOverriding {
     public static void main(String[] args) {
         SBI sbi =new SBI();
-        sbi.rateofInterest();
+        System.out.println( sbi.rateofInterest());
+        ICICI icici=new ICICI();
+        System.out.println(icici.rateofInterest());
 
     }
 }

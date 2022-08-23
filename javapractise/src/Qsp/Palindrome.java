@@ -2,7 +2,7 @@ package Qsp;
 
 import java.util.Scanner;
 
-public class Palidrome {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
