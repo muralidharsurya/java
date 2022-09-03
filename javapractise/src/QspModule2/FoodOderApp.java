@@ -27,6 +27,7 @@ public class FoodOderApp {
           System.out.println( "food_rating:"+food_rating);
           System.out.println("delivery_rating:"+hygenic_rating);
           delivery_person("kndpr",456);
+          System.out.println(delivery_rating );
 
       }
 

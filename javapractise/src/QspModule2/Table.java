@@ -1,4 +1,4 @@
-package QspModul;
+package QspModule2;
 
 public class Table {
     public static void tablemMultiple(int n){
@@ -10,6 +10,6 @@ public class Table {
     public static void main(String[] args) {
         tablemMultiple(7);
         System.out.println("   ");
-        tablemMultiple(6);
+       // tablemMultiple(6);
     }
 }
