@@ -1,6 +1,5 @@
 package Pavan;
-
-public class Animal {
+public class Animal {    // super key refer class is Tet super
     String colour="White";
     void eating(){
         System.out.println("eating");
