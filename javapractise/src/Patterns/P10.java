@@ -7,9 +7,9 @@ public class P10 {
             for (int col = 1; col <= 4; col++) {///888
 
                 if (row<=col)
-                    System.out.print("* ");
+                    System.out.print(" *  ");
                 else
-                    System.out.print(" ");
+                    System.out.print("  ");
             }
             System.out.println();
 }}}
